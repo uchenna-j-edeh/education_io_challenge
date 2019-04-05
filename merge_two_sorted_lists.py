@@ -16,8 +16,7 @@ arr = [1,2,3,4,5,6,7,8]
 
 def merge_two_sorted_lists(list_a, list_b):
     i = 0
-    j = 0
-    
+    j = 0    
     new_list = []
     l = len(list_a) + len(list_b)
 
@@ -58,7 +57,3 @@ print(merge_two_sorted_lists(arr1, arr2))
 arr1 = [1, 7, 9, 12, 22, 30]  
 arr2 = [2, 4, 9, 13, 33, 33, 39, 40, 51, 51]
 print(merge_two_sorted_lists(arr1, arr2))
-
-
-
-
