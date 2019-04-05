@@ -22,7 +22,7 @@ def merge_two_sorted_lists(list_a, list_b):
     l = len(list_a) + len(list_b)
 
     while(i + j < l):
-        print(i, j)
+        # print(i, j)
         if i > len(list_a) - 1:
             new_list.append(list_b[j])
             j = j + 1
@@ -53,6 +53,10 @@ print(merge_two_sorted_lists(arr1, arr2))
 
 arr1 = [1,3,3,3]  
 arr2 = [2,3,3,3]
+print(merge_two_sorted_lists(arr1, arr2))
+
+arr1 = [1, 7, 9, 12, 22, 30]  
+arr2 = [2, 4, 9, 13, 33, 33, 39, 40, 51, 51]
 print(merge_two_sorted_lists(arr1, arr2))
 
 
